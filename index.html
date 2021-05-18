@@ -13,15 +13,23 @@
     <title>bootstrap freelancer</title>
 </head>
 <body>
-    <div class="container-fluid debug">
+    <div class="container-body debug">
 
         <!-- barra nav  menu -->
-        <header>
+        <header class="container">
             <div class="row justify-content-around">
-                <div class="col box_logo text-uppercase m-3"><h3>start bootstrap</h3></div>
-                <div class="col box_menu d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-secondary  m-3"><i class="bi bi-list"></i></button>
-                </div>
+
+                <aside class="col box_logo text-uppercase m-3">
+                    <h3>start bootstrap</h3>
+                </aside>
+
+
+                <aside class="col box_menu d-flex justify-content-end">
+                    <button type="button" class="btn btn-outline-secondary  m-3">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </aside>
+
             </div>
 
         </header>
@@ -30,6 +38,7 @@
 
         <!-- jumbo -->
         <div class="jumbo text-center text-uppercase">
+
             <img src="img/avatar.svg" alt="avatar" class="m-3">
             <div class="titolo ">
                 <h1>start bootstrap</h1>
@@ -42,27 +51,82 @@
             </div>
 
             <p class="pt-1 pb-5">graphic artist - web designer - illustrator</p>
+
         </div>
         <!-- fine jumbo -->
 
 
         <main>
             <!-- portfoglio -->
-            <section class="portfoglio"></section>
+            <section class="container portfoglio">
+
+                <div class="row">
+                    <div class="col-12 cerchio cabin">
+                        
+                        <!-- <img src="img/cabin.png" alt=""> -->
+                    </div>
+                    <div class="col-12 cerchio cake">
+                        <!-- <img src="img/cake.png" alt=""> -->
+                    </div>
+                    <div class="col-12 cerchio circus">
+                        <!-- <img src="img/circus.png" alt=""> -->
+                    </div>
+                    <div class="col-12 cerchio game">
+                        <!-- <img src="img/game.png" alt=""> -->
+                    </div>
+                    <div class="col-12 cerchio safe">
+                        <!-- <img src="img/safe.png" alt=""> -->
+                    </div>
+                    <div class="col-12 cerchio submarine">
+                        <!-- <img src="img/submarine.png" alt=""> -->
+                    </div>
+                </div>
+            </section>
             <!-- fine portfoglio -->
 
             <!-- about us -->
-            <section class="about"></section>
+            <section class="about text-center">
+                prova titolo
+
+                <div class="star_break d-flex justify-content-center d-flex align-items-center">
+                    <div class="line_star"></div>
+                    <div class="white_star m-3"><i class="bi bi-star-fill"></i></div>
+                    <div class="line_star"></div>
+                </div>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam, unde possimus repellat nemo modi.</p>
+
+                bottone
+
+            </section>
             <!-- fine about us -->
 
             <!-- contact us -->
-            <section class="contact"></section>
+            <section class="contact text-center">
+                prova titolo
+                <hr>
+                form 
+                <hr>
+
+                bottone
+            </section>
             <!-- fine contact us -->
         </main>
 
         <footer>
             <!-- info piè di pagina -->
-            <div class="info-foot"></div>
+            <section class="container info-foot text-center">
+                <div class="row">
+                    <div class="col-12">location</div>
+                    <div class="col-12">around the web</div>
+                    <div class="col-12">freelancer</div>
+                </div>
+                
+            </section>
+
+            <section class="copyright text-center">
+                copyright
+            </section>
             <!-- fine info piè di pagina -->
         </footer>
     </div>

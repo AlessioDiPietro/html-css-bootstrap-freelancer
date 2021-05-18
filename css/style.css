@@ -9,7 +9,23 @@
     /* height: 20px; */
 }
 .debug .jumbo {
+    /* min-height: 200px; */
+}
+.debug .portfoglio {
+    min-height: 300px;
+}
+.debug .cerchio {
+    min-height:200px;
+}
+.debug .about {
     min-height: 200px;
+}
+
+/* body */
+.container-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /* barra nav menu */
@@ -21,7 +37,7 @@ header h3 {
 }
 
 /* jumbo */
-.jumbo {
+.jumbo, .about {
     background-color: #1abc9c;
     color: white;
 }
@@ -33,4 +49,46 @@ header h3 {
     height: 3px;
     background-color: white;
     border-radius: 5px;
+}
+
+/* portfoglio */
+.portfoglio .row {
+    margin: 4rem 0;
+}
+.cerchio {
+    margin: 0.5rem 0;
+}
+.cabin {
+    background-color: #ba4b63;
+}
+.cake {
+    background-color: #1ea4b6;
+}
+.circus {
+    background-color: #140f0f;
+}
+.game {
+    background-color: #1c83c1;
+}
+.safe {
+    background-color: #0e38b5;
+}
+.submarine {
+    background-color: #ccb2a3;
+}
+
+/* about */
+.about, .contact {
+    padding: 3rem 8rem;
+}
+
+/* footer */
+footer {
+    color:white;
+}
+.info-foot {
+    background-color: #3a546d;
+}
+.copyright {
+    background-color: #2c3e50;
 }
