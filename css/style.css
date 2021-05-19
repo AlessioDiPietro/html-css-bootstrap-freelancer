@@ -34,7 +34,10 @@
     width: 100%;
     box-sizing: border-box;
 }
-
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
 /* barra nav menu */
 .box {
     width: 100%;
@@ -64,6 +67,9 @@
 /* portfoglio */
 .portfoglio .row {
     margin: 4rem 0;
+}
+.black_line {
+    background-color: black;
 }
 .cerchio {
     margin: 0.5rem 0;
@@ -101,24 +107,4 @@ footer {
 }
 .copyright {
     background-color: #2c3e50;
-}
-
-
-@media (min-width: 576px) {
-    .large_menu{
-        display: flex !important;
-    }
-    .menu_btn {
-        display: none;
-    }
-    header.container, footer .container{
-        width: 100%;
-        max-width: unset;
-        margin:0;
-        padding:0;
-    }
-    main .container {
-        max-width: unset;
-        margin:auto
-    }
 }
