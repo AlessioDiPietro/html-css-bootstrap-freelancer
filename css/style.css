@@ -45,12 +45,18 @@
     background-color: #ccb2a3;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* body */
 .container_body {
     margin: 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    
 }
 h3 {
     font-size: 35px;
@@ -92,10 +98,28 @@ h3 {
 .cerchio {
     margin: 0.5rem 0;
     border-radius:20px;
+    position: relative;
 }
 img {
     width:100%;
     border-radius: 20px;
+}
+.cerchio i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    display: none;
+}
+
+/* hover  portfoglio*/
+.cerchio:hover img{
+    opacity: 0.2;
+}
+.cerchio:hover i {
+    display: unset;
 }
 
 /* about */
@@ -115,6 +139,8 @@ img {
     margin-bottom: 0;
     margin-top: 1rem;
 }
+
+
 
 /* footer */
 footer {
