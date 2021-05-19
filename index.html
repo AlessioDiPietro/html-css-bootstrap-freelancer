@@ -12,36 +12,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <title>bootstrap freelancer</title>
 </head>
+
+
 <body>
-    <div class="container-body debug">
+    <div class="container_body debug">
 
         <!-- barra nav  menu -->
-        <header class="container">
-            <div class="row justify-content-around">
-
-                <aside class="col box_logo text-uppercase m-3">
-                    <h3>start bootstrap</h3>
-                </aside>
-
-
-                <aside class="col box_menu d-flex justify-content-end">
-                    <div class="menu_btn">
-                        <button type="button" class="btn btn-outline-secondary  m-3">
-                        <i class="bi bi-list"></i>
-                        </button>
-                    </div>
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg_navy text-uppercase fw-bold">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-around box">
                     
-                    <nav class="d-flex align-items-center">
-                        <ul class="d-flex flex-row-reverse">
-                            <li><a href="#">portfoglio</a></li>
-                            <li><a href="#">portfoglio</a></li>
-                            <li><a href="#">portfoglio</a></li>
-                        </ul>
-                    </nav>
-                </aside>
-
-            </div>
-
+                        <div class="right_side">
+                            <a class="navbar-brand fs-4" href="#">start bootstrap</a>
+                        </div>
+                        
+                        <div class="left_side">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" >
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">portfoglio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">contact</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </nav>
         </header>
         <!-- fine barra nav menu -->
 
@@ -68,45 +74,66 @@
 
         <main>
             <!-- portfoglio -->
-            <section class="container portfoglio">
-
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-5 col-md-4 cerchio cabin">
-                        <!-- <img src="img/cabin.png" alt=""> -->
+            <section class="portfoglio p-5">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-md-4 ">
+                            <div class="cerchio cabin"><!-- <img src="img/cabin.png" alt=""> --></div>
+                            
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="cerchio cake"><!-- <img src="img/cake.png" alt=""> --></div>
+                            
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="cerchio circus"><!-- <img src="img/circus.png" alt=""> --></div>
+                            
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="cerchio game"><!-- <img src="img/game.png" alt=""> --></div>
+                            
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="cerchio safe"><!-- <img src="img/safe.png" alt=""> --></div>
+                            
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="cerchio submarine"><!-- <img src="img/submarine.png" alt=""> --></div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-5 col-md-4 cerchio cake">
-                        <!-- <img src="img/cake.png" alt=""> -->
-                    </div>
-                    <div class="col-12 col-sm-5 col-md-4 cerchio circus">
-                        <!-- <img src="img/circus.png" alt=""> -->
-                    </div>
-                    <div class="col-12 col-sm-5 col-md-4 cerchio game">
-                        <!-- <img src="img/game.png" alt=""> -->
-                    </div>
-                    <div class="col-12 col-sm-5 col-md-4 cerchio safe">
-                        <!-- <img src="img/safe.png" alt=""> -->
-                    </div>
-                    <div class="col-12 col-sm-5 col-md-4 cerchio submarine">
-                        <!-- <img src="img/submarine.png" alt=""> -->
-                    </div>
-                </div>
+                </div>  
             </section>
             <!-- fine portfoglio -->
 
             <!-- about us -->
             <section class="about text-center">
-                prova titolo
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">titolo</div>
 
-                <div class="star_break d-flex justify-content-center d-flex align-items-center">
-                    <div class="line_star"></div>
-                    <div class="white_star m-3"><i class="bi bi-star-fill"></i></div>
-                    <div class="line_star"></div>
+                        <div class="col-12">
+                            <div class="star_break d-flex justify-content-center d-flex align-items-center">
+                                <div class="line_star"></div>
+                                <div class="white_star m-3"><i class="bi bi-star-fill"></i></div>
+                                <div class="line_star"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-sm-6">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam, unde possimus repellat nemo modi.</p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam, unde possimus repellat nemo modi.</p>
+                        </div>
+                        
+                        <div class="col-12">
+                            bottone
+                        </div>
+
+                    </div>
+                    
                 </div>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam, unde possimus repellat nemo modi.</p>
-
-                bottone
-
             </section>
             <!-- fine about us -->
 
@@ -124,19 +151,20 @@
 
         <footer>
             <!-- info piè di pagina -->
-            <section class="container info_foot text-center gx-2">
-                <div class="row ">
-                    <div class="col-12 col-sm-4 ">
-                        location
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        around the web
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        freelancer
+            <section class="info_foot text-center gx-2">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-12 col-sm-4 ">
+                            location
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            around the web
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            freelancer
+                        </div>
                     </div>
                 </div>
-                
             </section>
 
             <section class="copyright text-center">
