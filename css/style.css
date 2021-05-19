@@ -26,6 +26,24 @@
 .debug .copyright {
     min-height: 30px;
 }
+.cabin {
+    background-color: #ba4b63;
+}
+.cake {
+    background-color: #1ea4b6;
+}
+.circus {
+    background-color: #140f0f;
+}
+.game {
+    background-color: #1c83c1;
+}
+.safe {
+    background-color: #0e38b5;
+}
+.submarine {
+    background-color: #ccb2a3;
+}
 
 /* body */
 .container_body {
@@ -74,28 +92,20 @@ h3 {
 .cerchio {
     margin: 0.5rem 0;
 }
-.cabin {
-    background-color: #ba4b63;
-}
-.cake {
-    background-color: #1ea4b6;
-}
-.circus {
-    background-color: #140f0f;
-}
-.game {
-    background-color: #1c83c1;
-}
-.safe {
-    background-color: #0e38b5;
-}
-.submarine {
-    background-color: #ccb2a3;
-}
 
 /* about */
 .about, .contact {
     padding: 3rem 8rem;
+}
+.btn_green {
+    background-color: #1abc9c;
+}
+
+/* contact */
+.border_bottom {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    
 }
 
 /* footer */
